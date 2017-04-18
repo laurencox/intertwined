@@ -34,7 +34,7 @@ main {
 }
 
 .maintitle {
-  font-family: "Trebuchet MS", sans-serif;  
+  font-family: "Trebuchet MS", sans-serif;
     color: #9b9891;
     letter-spacing: 0.1em;
     padding: 0;
@@ -111,7 +111,7 @@ summary b {
     top: 100px;
     left: 220px;
 }
- 
+
 
 p {
     line-height: 1.5em;
