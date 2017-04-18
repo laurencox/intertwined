@@ -1,0 +1,153 @@
+html {
+  font: 100%/1.15 serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+/* background-color: #FEFDFB;*/
+}
+
+body {
+  max-width: 60em;
+  padding: 0 2em;
+  margin: 0 auto;
+  font-size: var(--font-scale);
+}
+
+/* flexible images */
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.typewriter {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+main {
+  color: #9b9891;
+    font-family: Palatino,Georgia serif;
+   padding-top: 0;
+    margin-top: 6em;
+}
+
+.maintitle {
+  font-family: "Trebuchet MS", sans-serif;  
+    color: #9b9891;
+    letter-spacing: 0.1em;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+    text-align: center;
+    position: fixed;
+    background-color: #fff;
+    z-index: 50;
+}
+
+section {
+  padding-top: 0;
+}
+
+
+.introduction {
+padding-top: 3em;
+      background-image: url("47two.jpg");
+}
+
+nav ul {
+list-style: none;
+font-size: 1.5em;
+/*background: #FAFAFA;*/
+    margin-top: 6em;
+}
+
+nav li {
+margin-bottom: 1em;
+font-family: "Trebuchet MS", sans-serif;
+font-size: .80em;
+}
+
+nav a {
+text-decoration: none;
+margin-bottom: 2em;
+}
+
+a:visited {
+color: #9b9891;
+}
+
+a:link {
+color: #9b9891;
+}
+
+a:hover {
+    background: #EBEBEB;
+    padding: .60em;
+    border-radius: 2px;
+}
+
+summary {
+  visibility: hidden;
+	overflow: hidden;
+    letter-spacing: 0.1em;
+	}
+
+summary b {
+  float: right;
+  font-family: "Trebuchet MS";
+  padding: 1em;
+  background: #9b9891;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+}
+ 
+
+p {
+    line-height: 1.5em;
+}
+
+h2 {
+font-family: "Trebuchet MS", sans-serif;
+font-size: 1.2em;
+}
+
+
+a.backtotop {
+  text-decoration: none;
+  font-family: "Trebuchet MS";
+  padding: 1em;
+  background: #9b9891;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: absolute;
+  left: 190px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    letter-spacing: 0.1em;
+}
+
+
+
+@media (min-width: 60em) {
+
+html {
+  font-size: 125%;
+}
+
+
+
+}
