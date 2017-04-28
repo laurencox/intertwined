@@ -7,7 +7,7 @@ html {
 
 body {
   max-width: 60em;
-  padding: 0 2em;
+  padding: 0 1em;
   margin: 0 auto;
   font-size: var(--font-scale);
 }
@@ -38,6 +38,10 @@ section {
   margin-top: -3em;
 }
 
+hr {
+border: 2px dotted #9b9891;
+}
+
 .copyright {
   /*font-size: .25em;*/
   float: left;
@@ -58,14 +62,16 @@ section {
 padding-top: 0;
 }
 
+nav {
+  text-align: left;
+}
+
 nav ul {
 list-style: none;
+width: 100%;
 font-size: 1.5em;
 background: #fff;
-margin-top: 1.5em;
-padding: 2.5em;
-padding-top: 1em;
-padding-bottom: 1em;
+padding: 2em 1em 1em;
 }
 
 nav li {
@@ -96,34 +102,14 @@ a:hover {
     /*padding: .55em;*/
 }
 
-summary {
-  visibility: hidden;
-	overflow: hidden;
-    letter-spacing: 0.1em;
-	}
-
-summary b {
-  font-family: "Trebuchet MS", sans-serif;
-  font-weight: normal;
-  padding: .50em;
-  background: #9b9891;
-  visibility: visible;
-  border-radius: 3px;
-  color: #fff;
-  margin-top: .5em;
-  margin-bottom: 0;
-  cursor: pointer;
-  position: absolute;
-  top: 4px;
-  left: 290px;
-  position: fixed;
-}
-
 #banner {
-  overflow: hidden;
+  position: -webkit-sticky; /* stand-in, temporary */
+  position: sticky; /* standard */
+  top: 0;
+  text-align: right;
+  padding: .5em 0;
   background-color: #fff;
-  padding-right: 20em;
-  margin-top: 0em;
+  overflow: hidden;
 }
 
 #banner h1 {
@@ -133,17 +119,34 @@ summary b {
   letter-spacing: 0.1em;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 2.2em;
+  font-size: 1.4em;
   text-align: center;
-  position: fixed;
-  padding: 10px 160px 6px 0px;
   background-color: #fff;
 }
 
-#banner nav {
-  position: fixed;
-  float: right;
-  padding-left: 0;
+summary {
+  display: inline-block;
+  vertical-align: bottom;
+  visibility: hidden;
+	overflow: hidden;
+  letter-spacing: 0.1em;
+	}
+
+summary b {
+  display: inline-block;
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  padding: .50em;
+  background: #9b9891;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  padding: .5em;
+  cursor: pointer;
+}
+
+#menu {
+
 }
 
 p {
