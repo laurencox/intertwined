@@ -5,7 +5,7 @@ if ('addEventListener' in document) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector("#menu").onclick = function () {
+  document.querySelector("#menu nav").onclick = function () {
     document.querySelector("#menu").removeAttribute("open");
   }
 }, false);
