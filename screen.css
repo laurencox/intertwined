@@ -1,0 +1,315 @@
+html {
+  font: 100%/1.15 serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+/* background-color: #FEFDFB;*/
+}
+
+body {
+  max-width: 60em;
+  padding: 0 1em;
+  margin: 0 auto;
+  font-size: var(--font-scale);
+}
+
+/* flexible images */
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+main {
+  color: #9b9891;
+  font-family: "Palatino", Georgia, serif;
+  padding-top: 0;
+  /*margin-top: 1em;*/
+}
+
+section {
+  padding-top: 4em;
+  margin-top: -3em;
+}
+
+hr {
+border: 1px solid #9b9891;
+}
+
+.copyright {
+  /*font-size: .25em;*/
+  float: left;
+  margin: 0;
+}
+
+.psdcover {
+  font-size: .50em;
+  margin: 0;
+}
+
+.photocredit{
+  font-size: .50em;
+  margin: 0;
+}
+
+.introduction {
+padding-top: 0;
+}
+
+nav {
+  text-align: left;
+}
+
+nav ul {
+list-style: none;
+width: 100%;
+font-size: 1.5em;
+background: #fff;
+padding: 2em 1em 1em;
+}
+
+nav li {
+margin-bottom: 1em;
+font-family: "Trebuchet MS", sans-serif;
+font-size: .80em;
+}
+
+.nav {
+  overflow: hidden;
+}
+
+nav a {
+text-decoration: none;
+margin-bottom: 2em;
+}
+
+a:visited {
+color: #9b9891;
+}
+
+a:link {
+color: #9b9891;
+}
+
+a:hover {
+    background: #EBEBEB;
+    /*padding: .55em;*/
+}
+
+#banner {
+  position: -webkit-sticky; /* stand-in, temporary */
+  position: sticky; /* standard */
+  top: 0;
+  text-align: right;
+  padding: .5em 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#banner h1 {
+  float: left;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #9b9891;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.4em;
+  text-align: center;
+  background-color: #fff;
+}
+
+summary {
+  vertical-align: bottom;
+  visibility: hidden;
+	overflow: hidden;
+  letter-spacing: 0.1em;
+	}
+
+summary b {
+  display: inline-block;
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  padding: .50em;
+  background: #9b9891;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  padding: .5em;
+  cursor: pointer;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h2 {
+font-family: "Trebuchet MS", sans-serif;
+font-size: 1.2em;
+}
+
+h3 {
+  font-family: "Palatino", serif;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 1em;
+  padding-bottom: 3em;
+  margin-top: 0;
+}
+
+
+a.backtotop {
+  float: right;
+  text-decoration: none;
+  font-family: "Trebuchet MS";
+  padding: .50em;
+  background: #9b9891;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  left: 190px;
+  letter-spacing: 0.1em;
+  margin-bottom: 3em;
+}
+
+.end {
+  margin-bottom: 1.5em;
+}
+
+.drawings {
+  display: grid;
+  grid-gap: 1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.bookimages1 {
+  display: grid;
+  grid-gap: 1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.bookimages2 {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.antique {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.antique2 {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.exhibitionphotos {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+
+@media (min-width: 40em) {
+
+.drawings {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.bookimages1 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.bookimages2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.antique {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.antique2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.exhibitonphotos {
+  grid-template-columns: repeat(2,1fr);
+}
+
+a.backtotop {
+  font-size: .90em;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  /*position: absolute;*/
+  /*left: 100px;*/
+  letter-spacing: 0.1em;
+  margin-bottom: 3em;
+}
+
+
+@media (min-width: 60em) {
+
+html {
+  font-size: 125%;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  padding-bottom: .5em;
+}
+
+.drawings {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.bookimages1 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.bookimages2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.antique {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.antique2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.exhibitionphotos {
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+
+a.backtotop {
+  font-size: .90em;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  /*position: absolute;*/
+  left: 1365px;
+  letter-spacing: 0.1em;
+  margin-bottom: 3em;
+}
+
+
+
+}
