@@ -178,6 +178,87 @@ a.backtotop {
   margin-bottom: 1.5em;
 }
 
+.drawings {
+  display: grid;
+  grid-gap: 1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.bookimages1 {
+  display: grid;
+  grid-gap: 1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.bookimages2 {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.antique {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.antique2 {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.exhibitionphotos {
+  display: grid;
+  grid-gap:1em;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+
+@media (min-width: 40em) {
+
+.drawings {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.bookimages1 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.bookimages2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.antique {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.antique2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.exhibitonphotos {
+  grid-template-columns: repeat(2,1fr);
+}
+
+a.backtotop {
+  font-size: .90em;
+  visibility: visible;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  /*position: absolute;*/
+  /*left: 100px;*/
+  letter-spacing: 0.1em;
+  margin-bottom: 3em;
+}
+
 
 @media (min-width: 60em) {
 
@@ -191,13 +272,40 @@ img {
   padding-bottom: .5em;
 }
 
+.drawings {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.bookimages1 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.bookimages2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.antique {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.antique2 {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.exhibitionphotos {
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+
 a.backtotop {
+  font-size: .90em;
   visibility: visible;
   border-radius: 3px;
   color: #fff;
   cursor: pointer;
   /*position: absolute;*/
-  left: 1580px;
+  left: 1365px;
   letter-spacing: 0.1em;
   margin-bottom: 3em;
 }
