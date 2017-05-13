@@ -219,6 +219,13 @@ h3 {
     background-color: #555;
 }
 
+footer {
+  color: #9b9891;
+  font-family: Georgia, serif;
+  border-top: 1px solid #9b9891;
+  padding-top: 1em;
+  font-size: .80em;
+}
 
 @media (min-width: 40em) {
 
